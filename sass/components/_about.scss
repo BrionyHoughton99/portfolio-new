@@ -1,0 +1,29 @@
+.about {
+    height: 500px;
+    width: 100vw;
+    margin-top: 100px;
+
+    &__wrapper {
+        height: 80%;
+        width: 80%;
+        background-color: #f7f7f7;
+        margin: 0 auto;
+        box-shadow: 0 1.5rem 4rem rgba($color-text, .15);
+
+
+    }
+    &__bg {
+
+        p {
+            padding: 35px 10px 10px 10px;
+        }
+    }
+
+    &__container {
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

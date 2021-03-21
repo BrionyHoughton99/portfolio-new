@@ -1,0 +1,31 @@
+.projects {
+    width: 100vw;
+    margin: 50px 0;
+    position: relative;
+
+    margin-top: 100px;
+    @media only screen and (min-width: 700px) {
+        height: 100vh;
+    }
+
+    &__container {
+        margin: 10px;
+        @media only screen and (min-width: 700px) {
+            display: flex;
+            height: 40%;
+        }
+    }
+
+    &__card {
+        margin: 30px;
+        height: 200px;
+        
+
+        @media only screen and (min-width: 700px) {
+
+            height: 100%;
+            width: 100%;
+        }
+
+    }
+}
