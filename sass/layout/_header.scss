@@ -1,13 +1,13 @@
 .header {
-    height: 100vh;
+    height: 92vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 
     &__container {
-        height: 350px;
-        width: 80vw;
+        height: 300px;
+        width: 90vw;
         position: relative;
         display: flex;
         align-items: center;
@@ -17,6 +17,7 @@
     &__nav {
         position: fixed;
         width: 100vw;
+        height: 8vh;
         display: flex;
         justify-content: space-evenly;
         background-color: $color-bg-secondary;
@@ -35,16 +36,10 @@
 
 .svg {
 
-    &--top {
-        width: 100%;
-        position: absolute;
-        top: 50%;
-    }
-
     &--bottom {
         width: 100%;
         position: absolute;
-        bottom: 50%;
+        bottom: 0;
 
     }
 }

@@ -23,16 +23,28 @@
     position: relative;
     box-shadow: 0 8px 6px -6px $color-text;
     z-index: 90;
+    margin: 0 auto;
+    @media only screen and (min-width: 1000px) {
+      width: 75%;
+  }
 
     &__circle {
       position: absolute;
       right: 0;
-      padding: 10px;
+      padding: 5px;
       background-color: $color-bg-secondary;
       width: 100%;
       height: 100%;
       & i {
         color: #AF8D86;
+      }
+      &--1 {
+        position: absolute;
+        right: 15px;
+      }
+      &--2 {
+        position: absolute;
+        right: 0;
       }
     }
       &__inner {
@@ -44,15 +56,51 @@
     right: 0;
         bottom: 0;
         justify-content: center;
-        
+
+        &__img {
+          background-size: cover;
+          position: absolute;
+          bottom: 0;
+        }
+
+        &--1 {
+          background-image: url(../img/project.png);
+        }
+        &--2 {
+          background-image: url(../img/project-1.png);
+        }
+        &--3 {
+          background-image: url(../img/project-2.png);
+        }
+        &--4 {
+          background-image: url(../img/project-3.png);
+        }
+        &--5 {
+          background-image: url(../img/project-4.png);
+        }
+        &--6 {
+          background-image: url(../img/project-5.png);
+        }
         &_text {
-          padding: 10px;
+          font-family: 'Passion One', cursive;
+          color: $color-text;
             h1 {
                 font-size: 36px;
+                padding: 10px;
             }
             h2 {
                 font-size: 26px;
+                padding: 10px;
             }
+        }
+        &__link {
+          position: absolute;
+          top: -32px;
+          left: 6px;
+          padding: 0px 5px;
+          border-radius: 5px 5px 0 0;
+          border: 4px solid #FFB5A7;
+          opacity: 0.6;
         }
     }
   }
