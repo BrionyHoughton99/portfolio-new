@@ -118,17 +118,17 @@ a:link, a:visited, a:hover, a:active {
       position: absolute;
       bottom: 0; }
     .section-bg__inner--1 {
-      background-image: url(../img/project.png); }
+      background-image: url(img/project.png); }
     .section-bg__inner--2 {
-      background-image: url(../img/project-1.png); }
+      background-image: url(img/project-1.png); }
     .section-bg__inner--3 {
-      background-image: url(../img/project-2.png); }
+      background-image: url(img/project-2.png); }
     .section-bg__inner--4 {
-      background-image: url(../img/project-3.png); }
+      background-image: url(img/project-3.png); }
     .section-bg__inner--5 {
-      background-image: url(../img/project-4.png); }
+      background-image: url(img/project-4.png); }
     .section-bg__inner--6 {
-      background-image: url(../img/project-5.png); }
+      background-image: url(img/project-5.png); }
     .section-bg__inner_text {
       font-family: 'Passion One', cursive;
       color: #777777; }
